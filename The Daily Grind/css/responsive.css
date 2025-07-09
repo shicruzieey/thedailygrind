@@ -1,0 +1,213 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+      padding: 0 16px;
+    }
+  
+    .hero {
+      padding: 80px 0 60px;
+    }
+  
+    .hero-logo {
+      position: static;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  
+    .hero-logo .logo-icon {
+      width: 45px;
+      height: 45px;
+      margin: 0 auto;
+    }
+  
+    .hero-content {
+      text-align: center;
+    }
+  
+    .hero-title {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+  
+    .hero-description {
+      font-size: 0.95rem;
+      padding: 0 10px;
+    }
+  
+    .story {
+      padding: 60px 0;
+    }
+  
+    .story-content {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      text-align: center;
+    }
+  
+    .story-images {
+      order: -1;
+    }
+  
+    .story-title {
+      font-size: 2rem;
+    }
+  
+    .latte-art {
+      padding: 40px 0;
+    }
+  
+    .latte-img {
+      height: 300px;
+    }
+  
+    .latte-text {
+      position: static;
+      margin-top: 1rem;
+      max-width: none;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .experience {
+      padding: 60px 0;
+    }
+  
+    .experience-products {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      max-width: 300px;
+    }
+  
+    .experience-products .exp-product:nth-child(n + 2) {
+      display: none;
+    }
+  
+    .experience-title {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+  
+    .footer {
+      padding: 2rem 0 1rem 0;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      gap: 1.5rem;
+      text-align: center;
+    }
+  
+    .bottom-nav {
+      bottom: 10px;
+      width: calc(100% - 20px);
+    }
+  
+    .bottom-nav-container {
+      padding: 10px 15px;
+    }
+  
+    .nav-items {
+      display: none !important;
+    }
+  
+    .order-now-btn {
+      padding: 10px 16px;
+      font-size: 0.8rem;
+    }
+  
+    .nav-logo {
+      display: none;
+    }
+  
+    .products .container {
+      padding: 20px 0 !important;
+    }
+    .products-subtitle {
+      font-size: 0.85rem;
+      margin-bottom: 0.3rem;
+    }
+    .products img {
+      width: 100%;
+      max-width: 100%;
+      border-radius: 18px !important;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 0 12px;
+    }
+  
+    .hero {
+      padding: 60px 0 40px;
+    }
+  
+    .hero-logo .logo-icon {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .hero-title {
+      font-size: 1.8rem;
+      line-height: 1.2;
+    }
+  
+    .hero-description {
+      font-size: 0.9rem;
+    }
+  
+    .story-title {
+      font-size: 1.6rem;
+    }
+  
+    .experience-title {
+      font-size: 1.6rem;
+    }
+  
+    .story-btn,
+    .explore-btn {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+    }
+  
+    .exp-product {
+      padding: 1.5rem 0.8rem;
+    }
+  
+    .exp-product img {
+      width: 100px;
+    }
+  
+    .exp-product h3 {
+      font-size: 0.9rem;
+    }
+  
+    .latte-img {
+      height: 250px;
+    }
+  
+    .story-img-1 {
+      width: 220px;
+      height: 150px;
+    }
+  
+    .story-img-2 {
+      width: 140px;
+      height: 100px;
+      bottom: -15px;
+      right: -10px;
+    }
+  
+    .order-now-btn {
+      padding: 8px 12px;
+      font-size: 0.75rem;
+    }
+  
+    .products .container {
+      padding: 10px 0 !important;
+    }
+    .products img {
+      border-radius: 10px !important;
+    }
+  }
+  
